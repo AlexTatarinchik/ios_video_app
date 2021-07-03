@@ -32,8 +32,6 @@
     
     UIButton *btn = picker.subviews[0];
     [btn setTitle:@"  Broadcast Selector" forState:UIControlStateNormal];
-    UIImage *playImg = [UIImage systemImageNamed: @"play"];
-    [btn setImage: playImg forState:UIControlStateNormal];
     [view addSubview: picker];
     
     [self.view addSubview: view];
